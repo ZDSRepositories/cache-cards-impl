@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\CacheCardsPrototype\\CacheCardsPrototype\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
+      "projectUniqueName": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
       "projectName": "CacheCardsPrototype",
-      "projectPath": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\CacheCardsPrototype\\CacheCardsPrototype\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
+      "projectPath": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
       "packagesPath": "C:\\Users\\1zada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\CacheCardsPrototype\\CacheCardsPrototype\\CacheCardsPrototype\\obj\\",
+      "outputPath": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\1zada\\AppData\\Roaming\\NuGet\\NuGet.Config",
