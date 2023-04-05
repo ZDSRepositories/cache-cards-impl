@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CacheCardsPrototype"
+    "\\CacheCardsPrototype",
+    "\\CacheCardsPrototype\\bin\\Debug"
   ],
+  "SelectedNode": "\\CacheCardsPrototype\\HomePage.resx",
   "PreviewInSolutionExplorer": false
 }
