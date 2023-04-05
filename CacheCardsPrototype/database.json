@@ -1,8 +1,1 @@
-﻿{
-  "users": {
-    "bob": {
-      "username": "bob",
-      "password": "tomato"
-    }
-  }
-}
+{"users":{"bob":{"username":"bob","password":"tomato"}}}
