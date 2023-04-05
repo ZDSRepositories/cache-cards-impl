@@ -1,9 +1,11 @@
 ﻿using System.Text.Json;
 
+
 namespace CacheCardsPrototype
 {
     public class User
     {
+        // attributes of a user
         public string username { get; set; }
         public string password { get; set; }
         public User() {
@@ -16,6 +18,10 @@ namespace CacheCardsPrototype
     }
     public partial class loginPage : Form
     {
+        // we need to make sure that every user can open the file
+        private const string db_filename = "database.json";
+        // get the full path name on the specific system
+        public string full_path = Path.GetFullPath(db_filename);
         public loginPage()
         {
             InitializeComponent();
@@ -23,7 +29,10 @@ namespace CacheCardsPrototype
         }
 
         public DB mainDB = new DB();
-        private const string db_filename = "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\database.json";
+        
+        
+        //private const string db_filename = "database.json";
+        //"C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\database.json";
 
         private DB deserializeDB()
         {
@@ -33,7 +42,7 @@ namespace CacheCardsPrototype
             //string jsonString = JsonSerializer.Serialize(mainDB);
             //File.WriteAllText(db_filename, jsonString);
 
-            string jsonString = File.ReadAllText(db_filename);
+            string jsonString = File.ReadAllText(full_path);
             //MessageBox.Show(jsonString);
             mainDB = JsonSerializer.Deserialize<DB>(jsonString);
             return mainDB;
