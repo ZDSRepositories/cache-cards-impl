@@ -18,7 +18,7 @@ namespace CacheCardsPrototype
         private Button flashcardsButton;
         private PictureBox logo;
         private Label label1;
-        private Label label2;
+        private Label userNameHomePage;
         private Label label3;
         private Label label4;
         private Label label5;
@@ -79,7 +79,7 @@ namespace CacheCardsPrototype
             this.logo = new System.Windows.Forms.PictureBox();
             this.homeButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.userNameHomePage = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -212,17 +212,17 @@ namespace CacheCardsPrototype
             this.label1.TabIndex = 7;
             this.label1.Text = "Welcome back, ";
             // 
-            // label2
+            // userNameHomePage
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Consolas", 22.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(660, 364);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(242, 87);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "admin";
+            this.userNameHomePage.AutoSize = true;
+            this.userNameHomePage.BackColor = System.Drawing.Color.Transparent;
+            this.userNameHomePage.Font = new System.Drawing.Font("Consolas", 22.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.userNameHomePage.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.userNameHomePage.Location = new System.Drawing.Point(660, 364);
+            this.userNameHomePage.Name = "userNameHomePage";
+            this.userNameHomePage.Size = new System.Drawing.Size(242, 87);
+            this.userNameHomePage.TabIndex = 8;
+            this.userNameHomePage.Text = "admin";
             // 
             // label3
             // 
@@ -813,7 +813,7 @@ namespace CacheCardsPrototype
             this.Controls.Add(this.label6);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.userNameHomePage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label3);
