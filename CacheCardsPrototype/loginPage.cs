@@ -16,6 +16,7 @@ namespace CacheCardsPrototype
         }
 
         public DB mainDB = new DB();
+        public User currentUser = new User();
 
 
         //private const string db_filename = "database.json";
@@ -57,8 +58,9 @@ namespace CacheCardsPrototype
             }
             else
             {
+                this.currentUser = mainDB.users[textBox1.Text];
                 this.Hide();
-                var form2 = new HomePage();
+                var form2 = new HomePage(mainDB, currentUser);
                 form2.Closed += (s, args) => this.Close();
                 form2.Show();
             }

@@ -13,9 +13,14 @@ namespace CacheCardsPrototype
 {
     public partial class FlashcardSets : Form
     {
-        public FlashcardSets()
+        public DB mainDB;
+        public User currentUser;
+
+        public FlashcardSets(DB mainDB, User currentUser)
         {
             InitializeComponent();
+            this.mainDB = mainDB;
+            this.currentUser = currentUser;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -41,7 +46,7 @@ namespace CacheCardsPrototype
         private void homeButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new HomePage();
+            var form2 = new HomePage(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -49,7 +54,7 @@ namespace CacheCardsPrototype
         private void flashcardsButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new FlashcardSets();
+            var form2 = new FlashcardSets(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -57,7 +62,7 @@ namespace CacheCardsPrototype
         private void gameButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new GameCatalog();
+            var form2 = new GameCatalog(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -65,7 +70,7 @@ namespace CacheCardsPrototype
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new ModifyFlashCards();
+            var form2 = new ModifyFlashCards(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -73,7 +78,7 @@ namespace CacheCardsPrototype
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new StudyFlashCards();
+            var form2 = new StudyFlashCards(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -81,7 +86,7 @@ namespace CacheCardsPrototype
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new StudyFlashCards();
+            var form2 = new StudyFlashCards(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -89,7 +94,7 @@ namespace CacheCardsPrototype
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new ModifyFlashCards();
+            var form2 = new ModifyFlashCards(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -97,7 +102,7 @@ namespace CacheCardsPrototype
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new ModifyFlashCards();
+            var form2 = new ModifyFlashCards(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
