@@ -3,19 +3,6 @@
 
 namespace CacheCardsPrototype
 {
-    public class User
-    {
-        // attributes of a user
-        public string username { get; set; }
-        public string password { get; set; }
-        public User() {
-        
-        }
-    }
-    public class DB
-    {
-        public Dictionary<string, User> users { get; set; } = new Dictionary<string, User>();
-    }
     public partial class loginPage : Form
     {
         // we need to make sure that every user can open the file
@@ -29,8 +16,9 @@ namespace CacheCardsPrototype
         }
 
         public DB mainDB = new DB();
-        
-        
+        public User currentUser = new User();
+
+
         //private const string db_filename = "database.json";
         //"C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\database.json";
 
@@ -52,7 +40,7 @@ namespace CacheCardsPrototype
         {
             // Deserialize the DB on startup.
             mainDB = deserializeDB();
-            
+
 
         }
 
@@ -62,19 +50,35 @@ namespace CacheCardsPrototype
             mainDB = deserializeDB();
             if (!mainDB.users.ContainsKey(textBox1.Text.ToString())) // if there is no user with the username
             {
-                MessageBox.Show("There's no user named '"+ textBox1.Text + "'!");
+                MessageBox.Show("There's no user named '" + textBox1.Text + "'!");
             }
             else if (!textBox2.Text.Equals(mainDB.users[textBox1.Text].password))
             {
                 MessageBox.Show("Wrong password!");
             }
-            else {
+            else
+            {
+                this.currentUser = mainDB.users[textBox1.Text];
                 this.Hide();
-                var form2 = new HomePage();
+                var form2 = new HomePage(mainDB, currentUser);
                 form2.Closed += (s, args) => this.Close();
                 form2.Show();
             }
         }
 
     }
+    public class User
+    {
+        // attributes of a user
+        public string username { get; set; }
+        public string password { get; set; }
+        public User() {
+        
+        }
+    }
+    public class DB
+    {
+        public Dictionary<string, User> users { get; set; } = new Dictionary<string, User>();
+    }
+
 }

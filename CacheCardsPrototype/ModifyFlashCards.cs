@@ -13,9 +13,13 @@ namespace CacheCardsPrototype
 {
     public partial class ModifyFlashCards : Form
     {
-        public ModifyFlashCards()
+        public DB mainDB;
+        public User currentUser;
+        public ModifyFlashCards(DB mainDB, User currentUser)
         {
             InitializeComponent();
+            this.mainDB = mainDB;
+            this.currentUser = currentUser;
         }
 
         private void ModifyFlashCards_Load(object sender, EventArgs e)
@@ -26,7 +30,7 @@ namespace CacheCardsPrototype
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new HomePage();
+            var form2 = new HomePage(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -54,7 +58,7 @@ namespace CacheCardsPrototype
         private void flashcardsButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new FlashcardSets();
+            var form2 = new FlashcardSets(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
@@ -62,7 +66,7 @@ namespace CacheCardsPrototype
         private void gameButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new GameCatalog();
+            var form2 = new GameCatalog(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
