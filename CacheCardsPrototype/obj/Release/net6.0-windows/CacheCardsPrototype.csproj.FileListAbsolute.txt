@@ -32,7 +32,6 @@ C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.FlashcardSets.resources
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GameCatalog.resources
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.HomePage.resources
-C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.User.resources
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.ModifyFlashCards.resources
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.Properties.Resources.resources
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.StudyFlashCards.resources
