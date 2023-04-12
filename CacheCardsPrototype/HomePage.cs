@@ -149,7 +149,7 @@ namespace CacheCardsPrototype
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1540, 256);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(2138, 256);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // gameButton
@@ -158,9 +158,9 @@ namespace CacheCardsPrototype
             this.gameButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gameButton.Font = new System.Drawing.Font("Consolas", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.gameButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.gameButton.Location = new System.Drawing.Point(1200, 3);
+            this.gameButton.Location = new System.Drawing.Point(1665, 3);
             this.gameButton.Name = "gameButton";
-            this.gameButton.Size = new System.Drawing.Size(337, 250);
+            this.gameButton.Size = new System.Drawing.Size(470, 250);
             this.gameButton.TabIndex = 4;
             this.gameButton.Text = "Game";
             this.gameButton.UseVisualStyleBackColor = false;
@@ -172,9 +172,9 @@ namespace CacheCardsPrototype
             this.flashcardsButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flashcardsButton.Font = new System.Drawing.Font("Consolas", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.flashcardsButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.flashcardsButton.Location = new System.Drawing.Point(858, 3);
+            this.flashcardsButton.Location = new System.Drawing.Point(1190, 3);
             this.flashcardsButton.Name = "flashcardsButton";
-            this.flashcardsButton.Size = new System.Drawing.Size(336, 250);
+            this.flashcardsButton.Size = new System.Drawing.Size(469, 250);
             this.flashcardsButton.TabIndex = 3;
             this.flashcardsButton.Text = "Flashcards";
             this.flashcardsButton.UseVisualStyleBackColor = false;
@@ -186,7 +186,7 @@ namespace CacheCardsPrototype
             this.logo.Image = global::CacheCardsPrototype.Properties.Resources.CacheCards_title;
             this.logo.Location = new System.Drawing.Point(3, 3);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(507, 244);
+            this.logo.Size = new System.Drawing.Size(699, 244);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logo.TabIndex = 1;
             this.logo.TabStop = false;
@@ -197,9 +197,9 @@ namespace CacheCardsPrototype
             this.homeButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.homeButton.Font = new System.Drawing.Font("Consolas", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.homeButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.homeButton.Location = new System.Drawing.Point(516, 3);
+            this.homeButton.Location = new System.Drawing.Point(715, 3);
             this.homeButton.Name = "homeButton";
-            this.homeButton.Size = new System.Drawing.Size(336, 250);
+            this.homeButton.Size = new System.Drawing.Size(469, 250);
             this.homeButton.TabIndex = 2;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = false;
@@ -213,7 +213,7 @@ namespace CacheCardsPrototype
             this.label1.ForeColor = System.Drawing.Color.MediumAquamarine;
             this.label1.Location = new System.Drawing.Point(108, 364);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(239, 36);
+            this.label1.Size = new System.Drawing.Size(611, 87);
             this.label1.TabIndex = 7;
             this.label1.Text = "Welcome back, ";
             // 
@@ -225,7 +225,7 @@ namespace CacheCardsPrototype
             this.userNameHomePage.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.userNameHomePage.Location = new System.Drawing.Point(660, 364);
             this.userNameHomePage.Name = "userNameHomePage";
-            this.userNameHomePage.Size = new System.Drawing.Size(95, 36);
+            this.userNameHomePage.Size = new System.Drawing.Size(242, 87);
             this.userNameHomePage.TabIndex = 8;
             this.userNameHomePage.Text = "admin";
             this.userNameHomePage.Click += new System.EventHandler(this.userNameHomePage_Click);
@@ -238,7 +238,7 @@ namespace CacheCardsPrototype
             this.label3.ForeColor = System.Drawing.Color.MediumAquamarine;
             this.label3.Location = new System.Drawing.Point(404, 364);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 36);
+            this.label3.Size = new System.Drawing.Size(78, 87);
             this.label3.TabIndex = 9;
             this.label3.Text = "!";
             // 
@@ -251,7 +251,7 @@ namespace CacheCardsPrototype
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 22);
+            this.label4.Size = new System.Drawing.Size(173, 54);
             this.label4.TabIndex = 10;
             this.label4.Text = "Stats:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -265,7 +265,7 @@ namespace CacheCardsPrototype
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(190, 22);
+            this.label5.Size = new System.Drawing.Size(473, 54);
             this.label5.TabIndex = 11;
             this.label5.Text = "Recent Study Sets:";
             // 
@@ -336,7 +336,7 @@ namespace CacheCardsPrototype
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label6.Location = new System.Drawing.Point(58, 825);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 22);
+            this.label6.Size = new System.Drawing.Size(348, 54);
             this.label6.TabIndex = 11;
             this.label6.Text = "Study Streak:";
             // 
@@ -628,7 +628,7 @@ namespace CacheCardsPrototype
             this.label21.ForeColor = System.Drawing.Color.MediumAquamarine;
             this.label21.Location = new System.Drawing.Point(412, 825);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(70, 22);
+            this.label21.Size = new System.Drawing.Size(173, 54);
             this.label21.TabIndex = 16;
             this.label21.Text = "2 days";
             // 
@@ -660,10 +660,10 @@ namespace CacheCardsPrototype
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label22.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label22.Location = new System.Drawing.Point(3, 29);
+            this.label22.Location = new System.Drawing.Point(3, 59);
             this.label22.Margin = new System.Windows.Forms.Padding(3, 5, 0, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(108, 19);
+            this.label22.Size = new System.Drawing.Size(262, 47);
             this.label22.TabIndex = 17;
             this.label22.Text = "CacheMoney:";
             // 
@@ -673,10 +673,10 @@ namespace CacheCardsPrototype
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label23.ForeColor = System.Drawing.Color.MediumAquamarine;
-            this.label23.Location = new System.Drawing.Point(111, 29);
+            this.label23.Location = new System.Drawing.Point(265, 59);
             this.label23.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(36, 19);
+            this.label23.Size = new System.Drawing.Size(86, 47);
             this.label23.TabIndex = 18;
             this.label23.Text = "500";
             // 
@@ -686,10 +686,10 @@ namespace CacheCardsPrototype
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label24.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label24.Location = new System.Drawing.Point(150, 29);
+            this.label24.Location = new System.Drawing.Point(3, 111);
             this.label24.Margin = new System.Windows.Forms.Padding(3, 5, 0, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(126, 19);
+            this.label24.Size = new System.Drawing.Size(306, 47);
             this.label24.TabIndex = 19;
             this.label24.Text = "Games Played:";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -700,10 +700,10 @@ namespace CacheCardsPrototype
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label25.ForeColor = System.Drawing.Color.MediumAquamarine;
-            this.label25.Location = new System.Drawing.Point(276, 29);
+            this.label25.Location = new System.Drawing.Point(309, 111);
             this.label25.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(18, 19);
+            this.label25.Size = new System.Drawing.Size(42, 47);
             this.label25.TabIndex = 20;
             this.label25.Text = "5";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -715,9 +715,9 @@ namespace CacheCardsPrototype
             this.flowLayoutPanel2.SetFlowBreak(this.label26, true);
             this.label26.Font = new System.Drawing.Font("Consolas", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label26.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label26.Location = new System.Drawing.Point(3, 48);
+            this.label26.Location = new System.Drawing.Point(3, 158);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(130, 22);
+            this.label26.Size = new System.Drawing.Size(323, 54);
             this.label26.TabIndex = 21;
             this.label26.Text = "Leaderboard:";
             // 
@@ -728,10 +728,10 @@ namespace CacheCardsPrototype
             this.flowLayoutPanel2.SetFlowBreak(this.label27, true);
             this.label27.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label27.ForeColor = System.Drawing.Color.Gold;
-            this.label27.Location = new System.Drawing.Point(65, 110);
+            this.label27.Location = new System.Drawing.Point(65, 232);
             this.label27.Margin = new System.Windows.Forms.Padding(65, 20, 65, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(60, 22);
+            this.label27.Size = new System.Drawing.Size(148, 54);
             this.label27.TabIndex = 22;
             this.label27.Text = "FIRST";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -742,10 +742,10 @@ namespace CacheCardsPrototype
             this.label28.BackColor = System.Drawing.Color.Transparent;
             this.label28.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label28.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label28.Location = new System.Drawing.Point(60, 137);
+            this.label28.Location = new System.Drawing.Point(60, 291);
             this.label28.Margin = new System.Windows.Forms.Padding(60, 5, 0, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(72, 19);
+            this.label28.Size = new System.Drawing.Size(174, 47);
             this.label28.TabIndex = 23;
             this.label28.Text = "user #1";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -757,10 +757,10 @@ namespace CacheCardsPrototype
             this.flowLayoutPanel2.SetFlowBreak(this.label29, true);
             this.label29.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label29.ForeColor = System.Drawing.Color.Silver;
-            this.label29.Location = new System.Drawing.Point(192, 152);
+            this.label29.Location = new System.Drawing.Point(60, 358);
             this.label29.Margin = new System.Windows.Forms.Padding(60, 20, 65, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(70, 22);
+            this.label29.Size = new System.Drawing.Size(173, 54);
             this.label29.TabIndex = 24;
             this.label29.Text = "SECOND";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -771,10 +771,10 @@ namespace CacheCardsPrototype
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label30.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label30.Location = new System.Drawing.Point(60, 179);
+            this.label30.Location = new System.Drawing.Point(60, 417);
             this.label30.Margin = new System.Windows.Forms.Padding(60, 5, 0, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(72, 19);
+            this.label30.Size = new System.Drawing.Size(174, 47);
             this.label30.TabIndex = 25;
             this.label30.Text = "user #2";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -786,10 +786,10 @@ namespace CacheCardsPrototype
             this.flowLayoutPanel2.SetFlowBreak(this.label31, true);
             this.label31.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label31.ForeColor = System.Drawing.Color.Peru;
-            this.label31.Location = new System.Drawing.Point(197, 194);
+            this.label31.Location = new System.Drawing.Point(65, 484);
             this.label31.Margin = new System.Windows.Forms.Padding(65, 20, 65, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(60, 22);
+            this.label31.Size = new System.Drawing.Size(148, 54);
             this.label31.TabIndex = 26;
             this.label31.Text = "THIRD";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -800,10 +800,10 @@ namespace CacheCardsPrototype
             this.label32.BackColor = System.Drawing.Color.Transparent;
             this.label32.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label32.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label32.Location = new System.Drawing.Point(60, 221);
+            this.label32.Location = new System.Drawing.Point(60, 543);
             this.label32.Margin = new System.Windows.Forms.Padding(60, 5, 0, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(72, 19);
+            this.label32.Size = new System.Drawing.Size(174, 47);
             this.label32.TabIndex = 27;
             this.label32.Text = "user #3";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -811,7 +811,7 @@ namespace CacheCardsPrototype
             // HomePage
             // 
             this.BackgroundImage = global::CacheCardsPrototype.Properties.Resources.cachecards_background;
-            this.ClientSize = new System.Drawing.Size(1540, 845);
+            this.ClientSize = new System.Drawing.Size(2138, 1478);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.tableLayoutPanel4);

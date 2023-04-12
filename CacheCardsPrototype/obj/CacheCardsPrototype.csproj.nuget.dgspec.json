@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj": {}
+    "C:\\Users\\Mirella\\source\\repos\\ZDSRepositories\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj": {
+    "C:\\Users\\Mirella\\source\\repos\\ZDSRepositories\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
+        "projectUniqueName": "C:\\Users\\Mirella\\source\\repos\\ZDSRepositories\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
         "projectName": "CacheCardsPrototype",
-        "projectPath": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
-        "packagesPath": "C:\\Users\\1zada\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\obj\\",
+        "projectPath": "C:\\Users\\Mirella\\source\\repos\\ZDSRepositories\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
+        "packagesPath": "C:\\Users\\Mirella\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mirella\\Source\\Repos\\ZDSRepositories\\cache-cards-impl\\CacheCardsPrototype\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\1zada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mirella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
