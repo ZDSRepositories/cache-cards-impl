@@ -24,7 +24,7 @@ namespace CacheCardsPrototype
         //private const string db_filename = "database.json";
         //"C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\database.json";
 
-        private DB deserializeDB()
+        public DB deserializeDB()
         {
             //User foo = new User();
             //foo.username = "bob"; foo.password= "tomato";
@@ -37,6 +37,12 @@ namespace CacheCardsPrototype
             //MessageBox.Show(jsonString);
             mainDB = JsonSerializer.Deserialize<DB>(jsonString);
             return mainDB;
+        }
+
+        public void serializeDB(DB memoryDB, string absolute_path)
+        {
+            string jsonString = JsonSerializer.Serialize(memoryDB);
+            File.WriteAllText(absolute_path, jsonString);
         }
 
         private void LoginPage_Load(object sender, EventArgs e)

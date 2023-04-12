@@ -33,18 +33,18 @@
             this.flashcardsButton = new System.Windows.Forms.Button();
             this.logo = new System.Windows.Forms.PictureBox();
             this.homeButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.setNameTextbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.backTextbox = new System.Windows.Forms.TextBox();
+            this.frontTextbox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.topicDropdown = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.createButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel2.SuspendLayout();
@@ -124,17 +124,17 @@
             this.homeButton.UseVisualStyleBackColor = false;
             this.homeButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // setNameTextbox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox1.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox1.Location = new System.Drawing.Point(45, 210);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(380, 43);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "Enter set name...";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.setNameTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.setNameTextbox.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.setNameTextbox.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.setNameTextbox.Location = new System.Drawing.Point(45, 210);
+            this.setNameTextbox.Name = "setNameTextbox";
+            this.setNameTextbox.Size = new System.Drawing.Size(380, 43);
+            this.setNameTextbox.TabIndex = 3;
+            this.setNameTextbox.Text = "Enter set name...";
+            this.setNameTextbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -154,7 +154,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.backTextbox);
             this.panel2.Location = new System.Drawing.Point(546, 297);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(411, 260);
@@ -173,36 +173,36 @@
             this.label3.Text = "Back of card:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox3
+            // backTextbox
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox3.Location = new System.Drawing.Point(31, 43);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(354, 202);
-            this.textBox3.TabIndex = 6;
+            this.backTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.backTextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.backTextbox.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.backTextbox.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.backTextbox.Location = new System.Drawing.Point(31, 43);
+            this.backTextbox.Multiline = true;
+            this.backTextbox.Name = "backTextbox";
+            this.backTextbox.Size = new System.Drawing.Size(354, 202);
+            this.backTextbox.TabIndex = 6;
             // 
-            // textBox2
+            // frontTextbox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox2.Location = new System.Drawing.Point(25, 43);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(354, 202);
-            this.textBox2.TabIndex = 0;
+            this.frontTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.frontTextbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.frontTextbox.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.frontTextbox.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.frontTextbox.Location = new System.Drawing.Point(25, 43);
+            this.frontTextbox.Multiline = true;
+            this.frontTextbox.Name = "frontTextbox";
+            this.frontTextbox.Size = new System.Drawing.Size(354, 202);
+            this.frontTextbox.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.frontTextbox);
             this.panel1.Location = new System.Drawing.Point(45, 297);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(411, 260);
@@ -220,21 +220,21 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Front of card:";
             // 
-            // comboBox1
+            // topicDropdown
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "example topic #1",
-            "example topic #2",
-            "example topic #3"});
-            this.comboBox1.Location = new System.Drawing.Point(546, 210);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(386, 44);
-            this.comboBox1.TabIndex = 5;
+            this.topicDropdown.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.topicDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.topicDropdown.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.topicDropdown.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.topicDropdown.FormattingEnabled = true;
+            this.topicDropdown.Items.AddRange(new object[] {
+            "Caching",
+            "Memory Mapping",
+            "Hash Tables"});
+            this.topicDropdown.Location = new System.Drawing.Point(546, 210);
+            this.topicDropdown.Name = "topicDropdown";
+            this.topicDropdown.Size = new System.Drawing.Size(386, 44);
+            this.topicDropdown.TabIndex = 5;
             // 
             // label4
             // 
@@ -252,24 +252,25 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.createButton);
             this.panel3.Location = new System.Drawing.Point(45, 604);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(912, 93);
             this.panel3.TabIndex = 7;
             // 
-            // button1
+            // createButton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(912, 93);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "CREATE NEW CARD";
-            this.button1.UseVisualStyleBackColor = false;
+            this.createButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.createButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.createButton.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.createButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.createButton.Location = new System.Drawing.Point(0, 0);
+            this.createButton.Name = "createButton";
+            this.createButton.Size = new System.Drawing.Size(912, 93);
+            this.createButton.TabIndex = 0;
+            this.createButton.Text = "CREATE NEW CARD";
+            this.createButton.UseVisualStyleBackColor = false;
+            this.createButton.Click += new System.EventHandler(this.createButton_Click);
             // 
             // ModifyFlashCards
             // 
@@ -280,9 +281,9 @@
             this.ClientSize = new System.Drawing.Size(1006, 721);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.topicDropdown);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.setNameTextbox);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -301,6 +302,11 @@
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
         #endregion
 
         private TableLayoutPanel tableLayoutPanel1;
@@ -308,17 +314,17 @@
         private Button homeButton;
         private Button gameButton;
         private Button flashcardsButton;
-        private TextBox textBox1;
+        private TextBox setNameTextbox;
         private Label label1;
         private Panel panel2;
         private Label label3;
-        private TextBox textBox3;
-        private TextBox textBox2;
+        private TextBox backTextbox;
+        private TextBox frontTextbox;
         private Panel panel1;
         private Label label2;
-        private ComboBox comboBox1;
+        private ComboBox topicDropdown;
         private Label label4;
         private Panel panel3;
-        private Button button1;
+        private Button createButton;
     }
 }
