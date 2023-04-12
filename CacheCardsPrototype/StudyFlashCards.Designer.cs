@@ -141,12 +141,14 @@
             // button1
             // 
             this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.Firebrick;
             this.button1.Location = new System.Drawing.Point(12, 374);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 108);
+            this.button1.Size = new System.Drawing.Size(100, 110);
             this.button1.TabIndex = 3;
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = false;
@@ -154,12 +156,14 @@
             // button2
             // 
             this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.button2.Location = new System.Drawing.Point(894, 374);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 108);
+            this.button2.Size = new System.Drawing.Size(100, 110);
             this.button2.TabIndex = 4;
             this.button2.Text = ">";
             this.button2.UseVisualStyleBackColor = false;

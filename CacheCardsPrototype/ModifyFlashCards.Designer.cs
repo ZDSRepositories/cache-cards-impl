@@ -45,6 +45,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.createButton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.AddCardButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.PreviousButton = new System.Windows.Forms.Button();
+            this.NextButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel2.SuspendLayout();
@@ -129,11 +134,11 @@
             this.setNameTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.setNameTextbox.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.setNameTextbox.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.setNameTextbox.Location = new System.Drawing.Point(45, 210);
+            this.setNameTextbox.Location = new System.Drawing.Point(58, 210);
             this.setNameTextbox.Name = "setNameTextbox";
-            this.setNameTextbox.Size = new System.Drawing.Size(380, 43);
+            this.setNameTextbox.Size = new System.Drawing.Size(411, 43);
             this.setNameTextbox.TabIndex = 3;
-            this.setNameTextbox.Text = "Enter set name...";
+            this.setNameTextbox.Text = "Enter new name...";
             this.setNameTextbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
@@ -142,11 +147,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(45, 180);
+            this.label1.Location = new System.Drawing.Point(58, 180);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 27);
+            this.label1.Size = new System.Drawing.Size(220, 27);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Set Name:";
+            this.label1.Text = "Change Set Name:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
@@ -155,7 +160,7 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.backTextbox);
-            this.panel2.Location = new System.Drawing.Point(546, 297);
+            this.panel2.Location = new System.Drawing.Point(530, 324);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(411, 260);
             this.panel2.TabIndex = 2;
@@ -203,7 +208,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.frontTextbox);
-            this.panel1.Location = new System.Drawing.Point(45, 297);
+            this.panel1.Location = new System.Drawing.Point(58, 324);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(411, 260);
             this.panel1.TabIndex = 1;
@@ -231,9 +236,9 @@
             "Caching",
             "Memory Mapping",
             "Hash Tables"});
-            this.topicDropdown.Location = new System.Drawing.Point(546, 210);
+            this.topicDropdown.Location = new System.Drawing.Point(530, 210);
             this.topicDropdown.Name = "topicDropdown";
-            this.topicDropdown.Size = new System.Drawing.Size(386, 44);
+            this.topicDropdown.Size = new System.Drawing.Size(411, 44);
             this.topicDropdown.TabIndex = 5;
             // 
             // label4
@@ -242,35 +247,103 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(546, 180);
+            this.label4.Location = new System.Drawing.Point(530, 180);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 27);
+            this.label4.Size = new System.Drawing.Size(181, 27);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Topic:";
+            this.label4.Text = "Change Topic:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.createButton);
-            this.panel3.Location = new System.Drawing.Point(45, 604);
+            this.panel3.Location = new System.Drawing.Point(754, 619);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(912, 93);
+            this.panel3.Size = new System.Drawing.Size(187, 63);
             this.panel3.TabIndex = 7;
             // 
             // createButton
             // 
             this.createButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.createButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.createButton.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.createButton.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.createButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.createButton.Location = new System.Drawing.Point(0, 0);
             this.createButton.Name = "createButton";
-            this.createButton.Size = new System.Drawing.Size(912, 93);
+            this.createButton.Size = new System.Drawing.Size(187, 63);
             this.createButton.TabIndex = 0;
-            this.createButton.Text = "CREATE NEW CARD";
+            this.createButton.Text = "SAVE CHANGES";
             this.createButton.UseVisualStyleBackColor = false;
             this.createButton.Click += new System.EventHandler(this.createButton_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(58, 283);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(90, 27);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Card #";
+            // 
+            // AddCardButton
+            // 
+            this.AddCardButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.AddCardButton.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddCardButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.AddCardButton.Location = new System.Drawing.Point(58, 619);
+            this.AddCardButton.Name = "AddCardButton";
+            this.AddCardButton.Size = new System.Drawing.Size(187, 63);
+            this.AddCardButton.TabIndex = 1;
+            this.AddCardButton.Text = "NEW CARD";
+            this.AddCardButton.UseVisualStyleBackColor = false;
+            this.AddCardButton.Click += new System.EventHandler(this.AddCardButton_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Consolas", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Location = new System.Drawing.Point(624, 619);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(119, 63);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "CANCEL";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // PreviousButton
+            // 
+            this.PreviousButton.BackColor = System.Drawing.Color.Transparent;
+            this.PreviousButton.FlatAppearance.BorderSize = 0;
+            this.PreviousButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PreviousButton.Font = new System.Drawing.Font("Impact", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PreviousButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.PreviousButton.Location = new System.Drawing.Point(11, 419);
+            this.PreviousButton.Name = "PreviousButton";
+            this.PreviousButton.Size = new System.Drawing.Size(41, 76);
+            this.PreviousButton.TabIndex = 10;
+            this.PreviousButton.Text = "<";
+            this.PreviousButton.UseVisualStyleBackColor = false;
+            // 
+            // NextButton
+            // 
+            this.NextButton.BackColor = System.Drawing.Color.Transparent;
+            this.NextButton.FlatAppearance.BorderSize = 0;
+            this.NextButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NextButton.Font = new System.Drawing.Font("Impact", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NextButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.NextButton.Location = new System.Drawing.Point(953, 419);
+            this.NextButton.Name = "NextButton";
+            this.NextButton.Size = new System.Drawing.Size(41, 76);
+            this.NextButton.TabIndex = 11;
+            this.NextButton.Text = ">";
+            this.NextButton.UseVisualStyleBackColor = false;
             // 
             // ModifyFlashCards
             // 
@@ -279,6 +352,11 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::CacheCardsPrototype.Properties.Resources.cachecards_background;
             this.ClientSize = new System.Drawing.Size(1006, 721);
+            this.Controls.Add(this.NextButton);
+            this.Controls.Add(this.PreviousButton);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AddCardButton);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.topicDropdown);
@@ -326,5 +404,10 @@
         private Label label4;
         private Panel panel3;
         private Button createButton;
+        private Label label5;
+        private Button AddCardButton;
+        private Button button1;
+        private Button PreviousButton;
+        private Button NextButton;
     }
 }

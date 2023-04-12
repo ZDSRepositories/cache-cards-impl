@@ -74,7 +74,8 @@ namespace CacheCardsPrototype
         private void createButton_Click(object sender, EventArgs e)
         {
             if (setNameTextbox.Text.Length == 0) {
-                MessageBox.Show("A card must belong to a set!"); return;
+                MessageBox.Show("A card must belong to a set!"); 
+                return;
             }
             // insert card
             Card newCard = new Card();
@@ -93,6 +94,24 @@ namespace CacheCardsPrototype
                 newSet.cards.Append(newCard);
                 currentUser.flashcards[topicDropdown.Text].Add(newSet.setname, newSet);
             }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form2 = new FlashcardSets(this.mainDB, this.currentUser);
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
+        }
+
+        private void AddCardButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
