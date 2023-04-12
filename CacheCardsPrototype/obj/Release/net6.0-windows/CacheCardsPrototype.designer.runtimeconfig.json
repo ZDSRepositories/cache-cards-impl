@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Mirella\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Mirella\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\1zada\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\1zada\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

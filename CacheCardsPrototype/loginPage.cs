@@ -9,10 +9,12 @@ namespace CacheCardsPrototype
         private const string db_filename = "database.json";
         // get the full path name on the specific system
         public string full_path = Path.GetFullPath(db_filename);
+
         public loginPage()
         {
             InitializeComponent();
             this.Load += LoginPage_Load;
+            MessageBox.Show(full_path);
         }
 
         public DB mainDB = new DB();
@@ -22,7 +24,7 @@ namespace CacheCardsPrototype
         //private const string db_filename = "database.json";
         //"C:\\Users\\1zada\\OneDrive\\Documents\\software_engineering_1\\cache_cards\\repository\\cache-cards-impl\\CacheCardsPrototype\\database.json";
 
-        private DB deserializeDB()
+        public DB deserializeDB()
         {
             //User foo = new User();
             //foo.username = "bob"; foo.password= "tomato";
@@ -30,10 +32,17 @@ namespace CacheCardsPrototype
             //string jsonString = JsonSerializer.Serialize(mainDB);
             //File.WriteAllText(db_filename, jsonString);
 
+
             string jsonString = File.ReadAllText(full_path);
             //MessageBox.Show(jsonString);
             mainDB = JsonSerializer.Deserialize<DB>(jsonString);
             return mainDB;
+        }
+
+        public void serializeDB(DB memoryDB, string absolute_path)
+        {
+            string jsonString = JsonSerializer.Serialize(memoryDB);
+            File.WriteAllText(absolute_path, jsonString);
         }
 
         private void LoginPage_Load(object sender, EventArgs e)
@@ -72,6 +81,7 @@ namespace CacheCardsPrototype
         // attributes of a user
         public string username { get; set; }
         public string password { get; set; }
+        public Dictionary<string, Dictionary<string, Set>> flashcards { get; set; } = new Dictionary<string, Dictionary<string, Set>>(); // keys: topic names, values: dictionaries of sets by set name
         public User() {
         
         }
@@ -79,6 +89,17 @@ namespace CacheCardsPrototype
     public class DB
     {
         public Dictionary<string, User> users { get; set; } = new Dictionary<string, User>();
+    }
+    public class Card
+    {
+        public string front { get; set; }
+        public string back { get; set; }
+    }
+    public class Set
+    {
+        public string setname { get; set; }
+        public string topic { get; set; }
+        public Card[] cards { get; set; }
     }
 
 }

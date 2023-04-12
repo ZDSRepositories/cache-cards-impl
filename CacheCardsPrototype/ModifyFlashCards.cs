@@ -35,7 +35,7 @@ namespace CacheCardsPrototype
             form2.Show();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void textBox1_textChanged(object sender, EventArgs e)
         {
 
         }
@@ -69,6 +69,30 @@ namespace CacheCardsPrototype
             var form2 = new GameCatalog(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
             form2.Show();
+        }
+
+        private void createButton_Click(object sender, EventArgs e)
+        {
+            if (setNameTextbox.Text.Length == 0) {
+                MessageBox.Show("A card must belong to a set!"); return;
+            }
+            // insert card
+            Card newCard = new Card();
+            newCard.front = frontTextbox.Text;
+            newCard.back = backTextbox.Text;
+
+            if (this.currentUser.flashcards.ContainsKey(setNameTextbox.Text))
+            {
+                currentUser.flashcards[topicDropdown.Text][setNameTextbox.Text].cards.Append(newCard);
+            }
+            else
+            {
+                Set newSet = new Set();
+                newSet.topic = topicDropdown.Text;
+                newSet.setname= setNameTextbox.Text;
+                newSet.cards.Append(newCard);
+                currentUser.flashcards[topicDropdown.Text].Add(newSet.setname, newSet);
+            }
         }
     }
 }
