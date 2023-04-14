@@ -66,8 +66,8 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.22123F));
             this.tableLayoutPanel1.Controls.Add(this.gameButton, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.flashcardsButton, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.logo, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.homeButton, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.logo, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";

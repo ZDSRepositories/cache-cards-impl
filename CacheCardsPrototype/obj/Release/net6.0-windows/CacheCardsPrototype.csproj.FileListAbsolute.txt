@@ -72,6 +72,7 @@ C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototy
 C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
 C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
+<<<<<<< HEAD
 C:\Users\My ASUS\source\repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.exe
 C:\Users\My ASUS\source\repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\database.json
 C:\Users\My ASUS\source\repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.deps.json
@@ -98,3 +99,30 @@ C:\Users\My ASUS\source\repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototy
 C:\Users\My ASUS\source\repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.pdb
 C:\Users\My ASUS\source\repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.genruntimeconfig.cache
 C:\Users\My ASUS\source\repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
+=======
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.exe
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\database.json
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.deps.json
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.runtimeconfig.json
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.AssemblyReference.cache
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AccountSettings.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.FlashcardSets.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GameCatalog.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.HomePage.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.ModifyFlashCards.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.Properties.Resources.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.StudyFlashCards.resources
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.GenerateResource.cache
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfoInputs.cache
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfo.cs
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CoreCompileInputs.cache
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\refint\CacheCardsPrototype.dll
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.genruntimeconfig.cache
+C:\Users\My ASUS\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
+>>>>>>> Created a new form for creating cards, made changes to modify form. Messed around with the home form a bit, and made some mistakes :( I tries to not commit the changes I made to home form, but not sure if it'll work. Messed around with the code of the modify and create forms, tried to connect it to the database, tried to make the buttons functionable. But I still need to work on it cuz I messed up again. So ya'll will be able to see just the nonfunctional form. Buttons probably don't work.
