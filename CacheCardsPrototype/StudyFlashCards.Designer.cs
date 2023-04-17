@@ -206,6 +206,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "StudyFlashCards";
             this.Text = "StudyFlashCards";
+            //this.Load += new System.EventHandler(this.StudyFlashCards_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.panel1.ResumeLayout(false);

@@ -489,7 +489,7 @@
             this.homeButton = new System.Windows.Forms.Button();
             this.NextButton = new System.Windows.Forms.Button();
             this.PreviousButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
             this.AddCardButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -595,6 +595,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Games";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -608,6 +609,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Flashcards";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // homeButton
             // 
@@ -621,6 +623,7 @@
             this.homeButton.TabIndex = 2;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = false;
+            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
             // NextButton
             // 
@@ -650,19 +653,19 @@
             this.PreviousButton.Text = "<";
             this.PreviousButton.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // cancelButton
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Consolas", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(622, 624);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 63);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "CANCEL";
-            this.button3.UseVisualStyleBackColor = false;
+            this.cancelButton.BackColor = System.Drawing.Color.Transparent;
+            this.cancelButton.FlatAppearance.BorderSize = 0;
+            this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelButton.Font = new System.Drawing.Font("Consolas", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.cancelButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cancelButton.Location = new System.Drawing.Point(622, 624);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(119, 63);
+            this.cancelButton.TabIndex = 21;
+            this.cancelButton.Text = "CANCEL";
+            this.cancelButton.UseVisualStyleBackColor = false;
             // 
             // AddCardButton
             // 
@@ -709,6 +712,7 @@
             this.createButton.TabIndex = 0;
             this.createButton.Text = "CREATE SET";
             this.createButton.UseVisualStyleBackColor = false;
+            this.createButton.Click += new System.EventHandler(this.createButton_Click);
             // 
             // label4
             // 
@@ -840,7 +844,7 @@
             this.ClientSize = new System.Drawing.Size(1006, 721);
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.PreviousButton);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.AddCardButton);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel3);
@@ -878,7 +882,7 @@
         private Button homeButton;
         private Button NextButton;
         private Button PreviousButton;
-        private Button button3;
+        private Button cancelButton;
         private Button AddCardButton;
         private Label label5;
         private Panel panel3;

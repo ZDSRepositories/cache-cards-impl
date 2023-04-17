@@ -36,11 +36,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.createSetButton = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.modifyButton = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
@@ -165,25 +165,25 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Sort by topic:";
             // 
-            // button1
+            // createSetButton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(598, 197);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(272, 72);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "CREATE NEW SET";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.createSetButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.createSetButton.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.createSetButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.createSetButton.Location = new System.Drawing.Point(598, 197);
+            this.createSetButton.Name = "createSetButton";
+            this.createSetButton.Size = new System.Drawing.Size(272, 72);
+            this.createSetButton.TabIndex = 8;
+            this.createSetButton.Text = "CREATE NEW SET";
+            this.createSetButton.UseVisualStyleBackColor = false;
+            this.createSetButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Controls.Add(this.label3);
             this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
+            this.flowLayoutPanel1.Controls.Add(this.modifyButton);
             this.flowLayoutPanel1.Controls.Add(this.button4);
             this.flowLayoutPanel1.Controls.Add(this.label4);
             this.flowLayoutPanel1.Controls.Add(this.button5);
@@ -226,20 +226,20 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // modifyButton
             // 
-            this.button3.AutoSize = true;
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(416, 13);
-            this.button3.Margin = new System.Windows.Forms.Padding(20, 3, 3, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 37);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Modify";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.modifyButton.AutoSize = true;
+            this.modifyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.modifyButton.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.modifyButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.modifyButton.Location = new System.Drawing.Point(416, 13);
+            this.modifyButton.Margin = new System.Windows.Forms.Padding(20, 3, 3, 3);
+            this.modifyButton.Name = "modifyButton";
+            this.modifyButton.Size = new System.Drawing.Size(130, 37);
+            this.modifyButton.TabIndex = 2;
+            this.modifyButton.Text = "Modify";
+            this.modifyButton.UseVisualStyleBackColor = false;
+            this.modifyButton.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -325,7 +325,7 @@
             this.BackgroundImage = global::CacheCardsPrototype.Properties.Resources.cachecards_background;
             this.ClientSize = new System.Drawing.Size(1006, 721);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.createSetButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
@@ -352,11 +352,11 @@
         private Label label1;
         private ComboBox comboBox1;
         private Label label2;
-        private Button button1;
+        private Button createSetButton;
         private FlowLayoutPanel flowLayoutPanel1;
         private Label label3;
         private Button button2;
-        private Button button3;
+        private Button modifyButton;
         private Button button4;
         private Label label4;
         private Button button5;
