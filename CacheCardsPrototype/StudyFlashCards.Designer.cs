@@ -33,15 +33,18 @@
             this.flashcardsButton = new System.Windows.Forms.Button();
             this.logo = new System.Windows.Forms.PictureBox();
             this.homeButton = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.frontOfCard = new System.Windows.Forms.Panel();
+            this.frontOfCardText = new System.Windows.Forms.Label();
+            this.reviewButton = new System.Windows.Forms.Button();
+            this.knowItButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.backOfCard = new System.Windows.Forms.Panel();
+            this.backOfCardText = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.frontOfCard.SuspendLayout();
+            this.backOfCard.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -57,10 +60,11 @@
             this.tableLayoutPanel1.Controls.Add(this.homeButton, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(6);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1006, 125);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(2138, 256);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // gameButton
@@ -69,9 +73,10 @@
             this.gameButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gameButton.Font = new System.Drawing.Font("Consolas", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.gameButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.gameButton.Location = new System.Drawing.Point(784, 3);
+            this.gameButton.Location = new System.Drawing.Point(1668, 6);
+            this.gameButton.Margin = new System.Windows.Forms.Padding(6);
             this.gameButton.Name = "gameButton";
-            this.gameButton.Size = new System.Drawing.Size(219, 119);
+            this.gameButton.Size = new System.Drawing.Size(464, 244);
             this.gameButton.TabIndex = 4;
             this.gameButton.Text = "Games";
             this.gameButton.UseVisualStyleBackColor = false;
@@ -83,9 +88,10 @@
             this.flashcardsButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flashcardsButton.Font = new System.Drawing.Font("Consolas", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.flashcardsButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.flashcardsButton.Location = new System.Drawing.Point(561, 3);
+            this.flashcardsButton.Location = new System.Drawing.Point(1193, 6);
+            this.flashcardsButton.Margin = new System.Windows.Forms.Padding(6);
             this.flashcardsButton.Name = "flashcardsButton";
-            this.flashcardsButton.Size = new System.Drawing.Size(217, 119);
+            this.flashcardsButton.Size = new System.Drawing.Size(463, 244);
             this.flashcardsButton.TabIndex = 3;
             this.flashcardsButton.Text = "Flashcards";
             this.flashcardsButton.UseVisualStyleBackColor = false;
@@ -95,9 +101,10 @@
             // 
             this.logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
             this.logo.Image = global::CacheCardsPrototype.Properties.Resources.CacheCards_title;
-            this.logo.Location = new System.Drawing.Point(3, 3);
+            this.logo.Location = new System.Drawing.Point(6, 6);
+            this.logo.Margin = new System.Windows.Forms.Padding(6);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(329, 119);
+            this.logo.Size = new System.Drawing.Size(699, 244);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logo.TabIndex = 1;
             this.logo.TabStop = false;
@@ -108,61 +115,66 @@
             this.homeButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.homeButton.Font = new System.Drawing.Font("Consolas", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.homeButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.homeButton.Location = new System.Drawing.Point(338, 3);
+            this.homeButton.Location = new System.Drawing.Point(718, 6);
+            this.homeButton.Margin = new System.Windows.Forms.Padding(6);
             this.homeButton.Name = "homeButton";
-            this.homeButton.Size = new System.Drawing.Size(217, 119);
+            this.homeButton.Size = new System.Drawing.Size(463, 244);
             this.homeButton.TabIndex = 2;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = false;
             this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
-            // panel1
+            // frontOfCard
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(125, 179);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(759, 433);
-            this.panel1.TabIndex = 2;
+            this.frontOfCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.frontOfCard.Controls.Add(this.frontOfCardText);
+            this.frontOfCard.Location = new System.Drawing.Point(266, 367);
+            this.frontOfCard.Margin = new System.Windows.Forms.Padding(6);
+            this.frontOfCard.Name = "frontOfCard";
+            this.frontOfCard.Size = new System.Drawing.Size(1613, 888);
+            this.frontOfCard.TabIndex = 2;
             // 
-            // label1
+            // frontOfCardText
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(177, 71);
-            this.label1.MaximumSize = new System.Drawing.Size(587, 280);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(390, 280);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Front of\r\nCard";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.frontOfCardText.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.frontOfCardText.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.frontOfCardText.Location = new System.Drawing.Point(0, 0);
+            this.frontOfCardText.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.frontOfCardText.MaximumSize = new System.Drawing.Size(1613, 888);
+            this.frontOfCardText.Name = "frontOfCardText";
+            this.frontOfCardText.Size = new System.Drawing.Size(1613, 888);
+            this.frontOfCardText.TabIndex = 0;
+            this.frontOfCardText.Text = "Front of\r\nCard";
+            this.frontOfCardText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.frontOfCardText.Click += new System.EventHandler(this.frontOfCardText_Click);
             // 
-            // button1
+            // reviewButton
             // 
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Firebrick;
-            this.button1.Location = new System.Drawing.Point(12, 374);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 108);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "<";
-            this.button1.UseVisualStyleBackColor = false;
+            this.reviewButton.AutoSize = true;
+            this.reviewButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.reviewButton.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.reviewButton.ForeColor = System.Drawing.Color.Firebrick;
+            this.reviewButton.Location = new System.Drawing.Point(26, 767);
+            this.reviewButton.Margin = new System.Windows.Forms.Padding(6);
+            this.reviewButton.Name = "reviewButton";
+            this.reviewButton.Size = new System.Drawing.Size(212, 221);
+            this.reviewButton.TabIndex = 3;
+            this.reviewButton.Text = "<";
+            this.reviewButton.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // knowItButton
             // 
-            this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.MediumTurquoise;
-            this.button2.Location = new System.Drawing.Point(894, 374);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 108);
-            this.button2.TabIndex = 4;
-            this.button2.Text = ">";
-            this.button2.UseVisualStyleBackColor = false;
+            this.knowItButton.AutoSize = true;
+            this.knowItButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.knowItButton.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.knowItButton.ForeColor = System.Drawing.Color.MediumTurquoise;
+            this.knowItButton.Location = new System.Drawing.Point(1900, 767);
+            this.knowItButton.Margin = new System.Windows.Forms.Padding(6);
+            this.knowItButton.Name = "knowItButton";
+            this.knowItButton.Size = new System.Drawing.Size(212, 221);
+            this.knowItButton.TabIndex = 4;
+            this.knowItButton.Text = ">";
+            this.knowItButton.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -170,9 +182,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(12, 338);
+            this.label2.Location = new System.Drawing.Point(26, 693);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 33);
+            this.label2.Size = new System.Drawing.Size(208, 65);
             this.label2.TabIndex = 5;
             this.label2.Text = "Review";
             // 
@@ -182,30 +195,57 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(886, 338);
+            this.label3.Location = new System.Drawing.Point(1883, 693);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 33);
+            this.label3.Size = new System.Drawing.Size(238, 65);
             this.label3.TabIndex = 6;
             this.label3.Text = "Know it";
             // 
+            // backOfCard
+            // 
+            this.backOfCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.backOfCard.Controls.Add(this.backOfCardText);
+            this.backOfCard.Location = new System.Drawing.Point(266, 367);
+            this.backOfCard.Name = "backOfCard";
+            this.backOfCard.Size = new System.Drawing.Size(1613, 888);
+            this.backOfCard.TabIndex = 7;
+            this.backOfCard.Click += new System.EventHandler(this.backOfCardText_Click);
+            // 
+            // backOfCardText
+            // 
+            this.backOfCardText.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.backOfCardText.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.backOfCardText.Location = new System.Drawing.Point(0, 0);
+            this.backOfCardText.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.backOfCardText.MaximumSize = new System.Drawing.Size(1613, 888);
+            this.backOfCardText.Name = "backOfCardText";
+            this.backOfCardText.Size = new System.Drawing.Size(1613, 888);
+            this.backOfCardText.TabIndex = 1;
+            this.backOfCardText.Text = "Back of \r\nCard";
+            this.backOfCardText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.backOfCardText.Click += new System.EventHandler(this.backOfCardText_Click);
+            // 
             // StudyFlashCards
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CacheCardsPrototype.Properties.Resources.cachecards_background;
-            this.ClientSize = new System.Drawing.Size(1006, 721);
+            this.ClientSize = new System.Drawing.Size(2138, 1478);
+            this.Controls.Add(this.frontOfCard);
+            this.Controls.Add(this.backOfCard);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.knowItButton);
+            this.Controls.Add(this.reviewButton);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "StudyFlashCards";
             this.Text = "StudyFlashCards";
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.frontOfCard.ResumeLayout(false);
+            this.backOfCard.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,11 +258,13 @@
         private Button flashcardsButton;
         private PictureBox logo;
         private Button homeButton;
-        private Panel panel1;
-        private Label label1;
-        private Button button1;
-        private Button button2;
+        private Panel frontOfCard;
+        private Label frontOfCardText;
+        private Button reviewButton;
+        private Button knowItButton;
         private Label label2;
         private Label label3;
+        private Panel backOfCard;
+        private Label backOfCardText;
     }
 }

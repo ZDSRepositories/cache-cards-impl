@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ksEo3G0ZZXXRmdEExvQN98io5FROKsTs3DB1n3k50APNF/EUsl+8ij4E2Wb/0Arl5kRkWb9FxkHAluAtDgUiiQ==",
+  "dgSpecHash": "qA6wirM8s+oOKKCCsI+7Xm4dPmxwZZsAzZKR6606jEMtlNtATlcY1nxM2nzCil77cIcvggJZ3fAKIV+t/4DlBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mirella\\source\\repos\\ZDSRepositories\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Mirella\\Source\\Repos\\ZDSRepositories\\cache-cards-impl\\CacheCardsPrototype\\CacheCardsPrototype.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mirella\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

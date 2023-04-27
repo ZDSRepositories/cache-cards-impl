@@ -45,5 +45,15 @@ namespace CacheCardsPrototype
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
+
+        private void backOfCardText_Click(object sender, EventArgs e)
+        {
+            backOfCard.SendToBack();
+        }
+
+        private void frontOfCardText_Click(object sender, EventArgs e)
+        {
+            frontOfCard.SendToBack();
+        }
     }
 }

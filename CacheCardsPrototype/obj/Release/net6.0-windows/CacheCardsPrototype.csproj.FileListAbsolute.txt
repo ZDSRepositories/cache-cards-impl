@@ -71,4 +71,7 @@ C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototy
 C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.genruntimeconfig.cache
 C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
 C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CopyComplete
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.NewUser.resources
 C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources

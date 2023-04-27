@@ -15,6 +15,7 @@ namespace CacheCardsPrototype
     {
         public DB mainDB;
         public User currentUser;
+        
 
         public FlashcardSets(DB mainDB, User currentUser)
         {
@@ -40,7 +41,14 @@ namespace CacheCardsPrototype
 
         private void FlashcardSets_Load(object sender, EventArgs e)
         {
-
+            string[] usersSetNames = currentUser.flashcards["topic1"].Keys.ToArray();
+            if (usersSetNames.Length > 0) { 
+                label3.Text = usersSetNames[0];
+            }
+            if (usersSetNames.Length > 1)
+            {
+                label4.Text = usersSetNames[1];
+            }
         }
 
         private void homeButton_Click(object sender, EventArgs e)
