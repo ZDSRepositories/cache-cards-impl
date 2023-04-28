@@ -1,0 +1,106 @@
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.exe
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.deps.json
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.runtimeconfig.json
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.AssemblyReference.cache
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AccountSettings.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.FlashcardSets.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GameCatalog.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.HomePage.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.ModifyFlashCards.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.Properties.Resources.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.StudyFlashCards.resources
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.GenerateResource.cache
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfoInputs.cache
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfo.cs
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CoreCompileInputs.cache
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\refint\CacheCardsPrototype.dll
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.genruntimeconfig.cache
+C:\Users\Anna\source\repos\CacheCardsPrototype\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.exe
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.deps.json
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.runtimeconfig.json
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.AssemblyReference.cache
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AccountSettings.resources
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.FlashcardSets.resources
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GameCatalog.resources
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.HomePage.resources
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.ModifyFlashCards.resources
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.Properties.Resources.resources
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.StudyFlashCards.resources
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.GenerateResource.cache
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfoInputs.cache
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfo.cs
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CoreCompileInputs.cache
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\refint\CacheCardsPrototype.dll
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.genruntimeconfig.cache
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\database.json
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.exe
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\database.json
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.deps.json
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.runtimeconfig.json
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.AssemblyReference.cache
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AccountSettings.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.FlashcardSets.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GameCatalog.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.HomePage.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.ModifyFlashCards.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.Properties.Resources.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.StudyFlashCards.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.GenerateResource.cache
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfoInputs.cache
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfo.cs
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CoreCompileInputs.cache
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\refint\CacheCardsPrototype.dll
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.genruntimeconfig.cache
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
+C:\Users\1zada\OneDrive\Documents\software_engineering_1\cache_cards\repository\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CopyComplete
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.NewUser.resources
+C:\Users\Mirella\Source\Repos\ZDSRepositories\cache-cards-impl\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.exe
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\bin\Release\net6.0-windows\database.json
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.deps.json
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.runtimeconfig.json
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\bin\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.AssemblyReference.cache
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AccountSettings.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.FlashcardSets.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GameCatalog.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.HomePage.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.loginPage.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.ModifyFlashCards.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.NewUser.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.Properties.Resources.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.StudyFlashCards.resources
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.GenerateResource.cache
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfoInputs.cache
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.AssemblyInfo.cs
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CoreCompileInputs.cache
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.csproj.CopyComplete
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.dll
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\refint\CacheCardsPrototype.dll
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.pdb
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.genruntimeconfig.cache
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\ref\CacheCardsPrototype.dll
+C:\Users\My ASUS\source\repos\cache-cards-impl-studyFlashCardsFunction\CacheCardsPrototype\obj\Release\net6.0-windows\CacheCardsPrototype.CreateFlashCard.resources

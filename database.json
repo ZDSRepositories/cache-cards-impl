@@ -1,0 +1,22 @@
+{
+    "users": {
+        "bob": {
+            "username": "bob",
+            "password": "tomato",
+            "flashcards": {
+                "topic1": {
+                    "set1": {
+                        "setname": "set1",
+                        "topic": "topic1",
+                        "cards": [
+                            {
+                                "front": "what is a blah blah?",
+                                "back": "a blah blah is a blah blah blah"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
