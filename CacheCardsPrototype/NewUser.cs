@@ -17,7 +17,12 @@ namespace CacheCardsPrototype
         public User currentUser;
 
         // new username entered by user
-        public string newUsername;
+        private string newUsername;
+        private string newPass;
+        // status of creating the new user
+        // private bool validUser = false;
+        private bool confirmedPass = false;
+        private bool validPass = false;
         public NewUser(DB mainDB, User currentUser )
         {
             InitializeComponent();
@@ -27,29 +32,53 @@ namespace CacheCardsPrototype
 
         private void createAccount_Click(object sender, EventArgs e)
         {
-            newUsername = newUsernameTxtbox.Text;
-            if (mainDB.users.ContainsKey(newUsername))
+            // Ensure that the user has a unique username and that their pasword is confirmed
+            if (newUsernameTxtbox.Text.Length == 0 || newUsernameTxtbox.Text == null)
             {
-                newUsernameTxtbox.BackColor = Color.Red;
-                MessageBox.Show("Username already taken");
+                MessageBox.Show("Must enter a username");
             }
-            if (!passwordTxtbox.Text.Equals(confPasswordTxtbox.Text))
+            else
             {
-                MessageBox.Show("Password doesn't match confirm password");
+                newUsername = newUsernameTxtbox.Text;
+                // check if the username is taken
+                if (mainDB.users.ContainsKey(newUsername))
+                {
+                    newUsernameTxtbox.BackColor = Color.Red;
+                    MessageBox.Show("Username already taken");
+                    // clear text box so the loop is not stuck
+                    newUsernameTxtbox.Clear();
+                    newUsernameTxtbox.BackColor = SystemColors.Window;
+                }
             }
-            if(passwordTxtbox.Text == null || passwordTxtbox.Text.Length == 0)
-            {
-                MessageBox.Show("Password can't be nothing");
-            }
-            //after all checks
-            User newUser = new User();
-            newUser.username = newUsername;
-            newUser.password = passwordTxtbox.Text;
-            mainDB.users.Add(newUsername, newUser);
 
-            DBManager dbm = new DBManager();
-            dbm.serializeDB(mainDB);
-
+            if ((passwordTxtbox.Text.Length == 0 || passwordTxtbox.Text == null) | (confPasswordTxtbox.Text.Length == 0 || confPasswordTxtbox.Text == null))
+            {
+                MessageBox.Show("Password fields cannot be left blank. \nPlease fill in both fields and try again");
             }
+            else if (!passwordTxtbox.Text.Equals(confPasswordTxtbox.Text))
+            {
+                MessageBox.Show("Passwords do not match");
+            }
+            else
+            { // after all checks, create new User object and assign username and password
+                User newUser = new User();
+                newUser.username = newUsername;
+                newUser.password = newPass;
+
+                // add the username to the dictionary 
+                mainDB.users.Add(newUsername, newUser);
+
+                // sereialize to the json file
+                DBManager dbm = new DBManager();
+                dbm.serializeDB(mainDB);
+
+                // let the user know they have created an account and send them to their home page
+                MessageBox.Show("Your account has been created succesfully!");
+                this.Hide();
+                var form2 = new HomePage(mainDB, newUser);
+                form2.Closed += (s, args) => this.Close();
+                form2.Show();
+            }
+        }
     }
 }

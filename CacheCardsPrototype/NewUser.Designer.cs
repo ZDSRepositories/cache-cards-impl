@@ -40,7 +40,7 @@
             // newUsernameTxtbox
             // 
             this.newUsernameTxtbox.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.newUsernameTxtbox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.newUsernameTxtbox.ForeColor = System.Drawing.SystemColors.ControlText;
             this.newUsernameTxtbox.Location = new System.Drawing.Point(578, 472);
             this.newUsernameTxtbox.Margin = new System.Windows.Forms.Padding(6);
             this.newUsernameTxtbox.Name = "newUsernameTxtbox";
