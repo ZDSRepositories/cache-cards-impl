@@ -23,8 +23,6 @@ namespace CacheCardsPrototype
         private Label label4;
         private Label label5;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Button button1;
-        private Button button2;
         private Button button3;
         private Label label6;
         private TableLayoutPanel tableLayoutPanel2;
@@ -89,8 +87,6 @@ namespace CacheCardsPrototype
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -274,8 +270,6 @@ namespace CacheCardsPrototype
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.Controls.Add(this.label5);
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(this.button3);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(54, 498);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -283,48 +277,18 @@ namespace CacheCardsPrototype
             this.flowLayoutPanel1.TabIndex = 12;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
-            // button1
-            // 
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.button1.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(35, 99);
-            this.button1.Margin = new System.Windows.Forms.Padding(35, 5, 5, 25);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(383, 64);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "example set #1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.button2.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(438, 99);
-            this.button2.Margin = new System.Windows.Forms.Padding(15, 5, 5, 25);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(383, 64);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "example set #2";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // button3
             // 
             this.button3.AutoSize = true;
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
             this.button3.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(841, 99);
+            this.button3.Location = new System.Drawing.Point(15, 99);
             this.button3.Margin = new System.Windows.Forms.Padding(15, 5, 20, 25);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(383, 64);
             this.button3.TabIndex = 14;
-            this.button3.Text = "example set #3";
+            this.button3.Text = "Coming Soon";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -628,9 +592,9 @@ namespace CacheCardsPrototype
             this.label21.ForeColor = System.Drawing.Color.MediumAquamarine;
             this.label21.Location = new System.Drawing.Point(412, 825);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(173, 54);
+            this.label21.Size = new System.Drawing.Size(823, 54);
             this.label21.TabIndex = 16;
-            this.label21.Text = "2 days";
+            this.label21.Text = "Study Streak Feature Coming Soon";
             // 
             // flowLayoutPanel2
             // 
@@ -914,6 +878,8 @@ namespace CacheCardsPrototype
         private void HomePage_Load(object sender, EventArgs e)
         {
             userNameHomePage.Text = this.currentUser.username;
+            //button3.Text = this.currentUser.flashcards[]
+            
         }
 
         private void userNameHomePage_Click(object sender, EventArgs e)

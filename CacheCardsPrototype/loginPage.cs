@@ -132,9 +132,11 @@ namespace CacheCardsPrototype
             string jsonString = JsonSerializer.Serialize(memoryDB);
             File.WriteAllText(full_path, jsonString);
         }
-
-
-
     }
+
+    // make a class that can get the topic names and setnames with a function
+    // then just call the method and have it return an array or something so we
+    // can then work with the array, same idea as making a class for the serialization
+    // and deserialization 
 
 }

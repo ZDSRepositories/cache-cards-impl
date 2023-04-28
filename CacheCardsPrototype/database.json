@@ -4,14 +4,24 @@
             "username": "bob",
             "password": "tomato",
             "flashcards": {
-                "topic1": {
-                    "set1": {
-                        "setname": "set1",
-                        "topic": "topic1",
+                "databases": {
+                    "Test 1 Prep": {
+                        "setname": "Test1 study",
+                        "topic": "databases",
                         "cards": [
                             {
-                                "front": "what is a blah blah?",
-                                "back": "a blah blah is a blah blah blah"
+                                "front": "What does SQL stand for?",
+                                "back": "Structured Query Langauge"
+                            }
+                        ]
+                    },
+                    "Final Prep": {
+                        "setname": "Final Prep",
+                        "topic": "databases",
+                        "cards": [
+                            {
+                                "front": "What is SQL?",
+                                "back": "As plain language as it gets"
                             }
                         ]
                     }

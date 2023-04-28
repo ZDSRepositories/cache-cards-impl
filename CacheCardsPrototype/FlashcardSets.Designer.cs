@@ -40,8 +40,8 @@
             this.usersSetsPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.studyButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.modifyButton = new System.Windows.Forms.Button();
+            this.deleteButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -192,8 +192,8 @@
             this.usersSetsPanel.AutoScroll = true;
             this.usersSetsPanel.Controls.Add(this.label3);
             this.usersSetsPanel.Controls.Add(this.studyButton);
-            this.usersSetsPanel.Controls.Add(this.button3);
-            this.usersSetsPanel.Controls.Add(this.button4);
+            this.usersSetsPanel.Controls.Add(this.modifyButton);
+            this.usersSetsPanel.Controls.Add(this.deleteButton);
             this.usersSetsPanel.Controls.Add(this.label4);
             this.usersSetsPanel.Controls.Add(this.button5);
             this.usersSetsPanel.Controls.Add(this.button6);
@@ -235,36 +235,36 @@
             this.studyButton.UseVisualStyleBackColor = false;
             this.studyButton.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // modifyButton
             // 
-            this.button3.AutoSize = true;
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(909, 26);
-            this.button3.Margin = new System.Windows.Forms.Padding(42, 6, 6, 6);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(389, 131);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Modify";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.modifyButton.AutoSize = true;
+            this.modifyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.modifyButton.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.modifyButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.modifyButton.Location = new System.Drawing.Point(909, 26);
+            this.modifyButton.Margin = new System.Windows.Forms.Padding(42, 6, 6, 6);
+            this.modifyButton.Name = "modifyButton";
+            this.modifyButton.Size = new System.Drawing.Size(389, 131);
+            this.modifyButton.TabIndex = 2;
+            this.modifyButton.Text = "Modify";
+            this.modifyButton.UseVisualStyleBackColor = false;
+            this.modifyButton.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // deleteButton
             // 
-            this.button4.AutoSize = true;
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.usersSetsPanel.SetFlowBreak(this.button4, true);
-            this.button4.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(1346, 26);
-            this.button4.Margin = new System.Windows.Forms.Padding(42, 6, 6, 6);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(389, 131);
-            this.button4.TabIndex = 3;
-            this.button4.Tag = "Delete";
-            this.button4.Text = "Delete";
-            this.button4.UseVisualStyleBackColor = false;
+            this.deleteButton.AutoSize = true;
+            this.deleteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.usersSetsPanel.SetFlowBreak(this.deleteButton, true);
+            this.deleteButton.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.deleteButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.deleteButton.Location = new System.Drawing.Point(1346, 26);
+            this.deleteButton.Margin = new System.Windows.Forms.Padding(42, 6, 6, 6);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(389, 131);
+            this.deleteButton.TabIndex = 3;
+            this.deleteButton.Tag = "Delete";
+            this.deleteButton.Text = "Delete";
+            this.deleteButton.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
@@ -366,8 +366,8 @@
         private FlowLayoutPanel usersSetsPanel;
         private Label label3;
         private Button studyButton;
-        private Button button3;
-        private Button button4;
+        private Button modifyButton;
+        private Button deleteButton;
         private Label label4;
         private Button button5;
         private Button button6;

@@ -45,5 +45,10 @@ namespace CacheCardsPrototype
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

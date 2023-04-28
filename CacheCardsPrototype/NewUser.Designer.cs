@@ -50,7 +50,7 @@
             // passwordTxtbox
             // 
             this.passwordTxtbox.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.passwordTxtbox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.passwordTxtbox.ForeColor = System.Drawing.SystemColors.ControlText;
             this.passwordTxtbox.Location = new System.Drawing.Point(578, 655);
             this.passwordTxtbox.Margin = new System.Windows.Forms.Padding(6);
             this.passwordTxtbox.Name = "passwordTxtbox";
@@ -60,7 +60,7 @@
             // confPasswordTxtbox
             // 
             this.confPasswordTxtbox.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.confPasswordTxtbox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.confPasswordTxtbox.ForeColor = System.Drawing.SystemColors.ControlText;
             this.confPasswordTxtbox.Location = new System.Drawing.Point(578, 857);
             this.confPasswordTxtbox.Margin = new System.Windows.Forms.Padding(6);
             this.confPasswordTxtbox.Name = "confPasswordTxtbox";
@@ -101,7 +101,7 @@
             this.confPassLabel.Name = "confPassLabel";
             this.confPassLabel.Size = new System.Drawing.Size(440, 55);
             this.confPassLabel.TabIndex = 7;
-            this.confPassLabel.Text = "confirm password";
+            this.confPassLabel.Text = "Confirm password";
             // 
             // createAccountButton
             // 

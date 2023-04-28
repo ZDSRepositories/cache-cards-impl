@@ -33,7 +33,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.textBox1.Location = new System.Drawing.Point(620, 652);
             this.textBox1.Margin = new System.Windows.Forms.Padding(6);
             this.textBox1.Name = "textBox1";
@@ -44,7 +44,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.textBox2.Location = new System.Drawing.Point(620, 791);
             this.textBox2.Margin = new System.Windows.Forms.Padding(6);
             this.textBox2.Name = "textBox2";
