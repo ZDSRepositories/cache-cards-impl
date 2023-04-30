@@ -134,9 +134,9 @@
             this.label1.Location = new System.Drawing.Point(55, 359);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(654, 101);
+            this.label1.Size = new System.Drawing.Size(1641, 101);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Game Catalog:";
+            this.label1.Text = "Game Catalog: (Games Coming Soon!)";
             // 
             // panel2
             // 

@@ -175,6 +175,7 @@
             this.knowItButton.TabIndex = 4;
             this.knowItButton.Text = ">";
             this.knowItButton.UseVisualStyleBackColor = false;
+            this.knowItButton.Click += new System.EventHandler(this.knowItButton_Click);
             // 
             // label2
             // 
@@ -242,6 +243,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "StudyFlashCards";
             this.Text = "StudyFlashCards";
+            this.Load += new System.EventHandler(this.StudyFlashCards_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.frontOfCard.ResumeLayout(false);

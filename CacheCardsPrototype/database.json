@@ -12,6 +12,14 @@
                             {
                                 "front": "What does SQL stand for?",
                                 "back": "Structured Query Langauge"
+                            },
+                            {
+                                "front": "card 2 front?",
+                                "back": "card 2 back"
+                            },
+                            {
+                                "front": "card 3 front?",
+                                "back": "card 3 back"
                             }
                         ]
                     },

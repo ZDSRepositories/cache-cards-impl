@@ -15,11 +15,13 @@ namespace CacheCardsPrototype
     {
         public DB mainDB;
         public User currentUser;
+        public string workingSet;
         public StudyFlashCards(DB mainDB, User currentUser)
         {
             InitializeComponent();
             this.mainDB = mainDB;
             this.currentUser = currentUser;
+           // this.workingSet = setname;
         }
 
         private void homeButton_Click(object sender, EventArgs e)
@@ -46,6 +48,7 @@ namespace CacheCardsPrototype
             form2.Show();
         }
 
+        
         private void backOfCardText_Click(object sender, EventArgs e)
         {
             backOfCard.SendToBack();
@@ -54,6 +57,21 @@ namespace CacheCardsPrototype
         private void frontOfCardText_Click(object sender, EventArgs e)
         {
             frontOfCard.SendToBack();
+        }
+
+        private void StudyFlashCards_Load(object sender, EventArgs e)
+        {
+            if (this.currentUser.flashcards.Count > 0)
+            {
+                frontOfCardText.Text = currentUser.flashcards["databases"]["Test 1 Prep"].cards[0].front;
+                backOfCardText.Text = currentUser.flashcards["databases"]["Test 1 Prep"].cards[0].back;
+            }
+        }
+
+        private void knowItButton_Click(object sender, EventArgs e)
+        {
+            frontOfCardText.Text = currentUser.flashcards["databases"]["Test 1 Prep"].cards[1].front;
+            backOfCardText.Text = currentUser.flashcards["databases"]["Test 1 Prep"].cards[1].back;
         }
     }
 }

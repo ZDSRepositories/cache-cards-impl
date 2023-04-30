@@ -20,7 +20,6 @@ namespace CacheCardsPrototype
         private Label label1;
         private Label userNameHomePage;
         private Label label3;
-        private Label label4;
         private Label label5;
         private FlowLayoutPanel flowLayoutPanel1;
         private Button button3;
@@ -46,17 +45,7 @@ namespace CacheCardsPrototype
         private Label label14;
         private Label label21;
         private FlowLayoutPanel flowLayoutPanel2;
-        private Label label22;
-        private Label label23;
-        private Label label24;
-        private Label label25;
-        private Label label26;
         private Label label27;
-        private Label label28;
-        private Label label29;
-        private Label label30;
-        private Label label31;
-        private Label label32;
         private Button homeButton;
 
         public DB mainDB;
@@ -84,7 +73,6 @@ namespace CacheCardsPrototype
             this.label1 = new System.Windows.Forms.Label();
             this.userNameHomePage = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
@@ -110,17 +98,7 @@ namespace CacheCardsPrototype
             this.button4 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -237,20 +215,6 @@ namespace CacheCardsPrototype
             this.label3.Size = new System.Drawing.Size(78, 87);
             this.label3.TabIndex = 9;
             this.label3.Text = "!";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel2.SetFlowBreak(this.label4, true);
-            this.label4.Font = new System.Drawing.Font("Consolas", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(3, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(173, 54);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Stats:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -600,177 +564,26 @@ namespace CacheCardsPrototype
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel2.Controls.Add(this.label4);
-            this.flowLayoutPanel2.Controls.Add(this.label22);
-            this.flowLayoutPanel2.Controls.Add(this.label23);
-            this.flowLayoutPanel2.Controls.Add(this.label24);
-            this.flowLayoutPanel2.Controls.Add(this.label25);
-            this.flowLayoutPanel2.Controls.Add(this.label26);
             this.flowLayoutPanel2.Controls.Add(this.label27);
-            this.flowLayoutPanel2.Controls.Add(this.label28);
-            this.flowLayoutPanel2.Controls.Add(this.label29);
-            this.flowLayoutPanel2.Controls.Add(this.label30);
-            this.flowLayoutPanel2.Controls.Add(this.label31);
-            this.flowLayoutPanel2.Controls.Add(this.label32);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(1745, 466);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(1701, 453);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(370, 611);
             this.flowLayoutPanel2.TabIndex = 17;
             this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint);
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label22.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label22.Location = new System.Drawing.Point(3, 59);
-            this.label22.Margin = new System.Windows.Forms.Padding(3, 5, 0, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(262, 47);
-            this.label22.TabIndex = 17;
-            this.label22.Text = "CacheMoney:";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label23.ForeColor = System.Drawing.Color.MediumAquamarine;
-            this.label23.Location = new System.Drawing.Point(265, 59);
-            this.label23.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(86, 47);
-            this.label23.TabIndex = 18;
-            this.label23.Text = "500";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label24.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label24.Location = new System.Drawing.Point(3, 111);
-            this.label24.Margin = new System.Windows.Forms.Padding(3, 5, 0, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(306, 47);
-            this.label24.TabIndex = 19;
-            this.label24.Text = "Games Played:";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label25.ForeColor = System.Drawing.Color.MediumAquamarine;
-            this.label25.Location = new System.Drawing.Point(309, 111);
-            this.label25.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(42, 47);
-            this.label25.TabIndex = 20;
-            this.label25.Text = "5";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel2.SetFlowBreak(this.label26, true);
-            this.label26.Font = new System.Drawing.Font("Consolas", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label26.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label26.Location = new System.Drawing.Point(3, 158);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(323, 54);
-            this.label26.TabIndex = 21;
-            this.label26.Text = "Leaderboard:";
-            // 
             // label27
             // 
-            this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel2.SetFlowBreak(this.label27, true);
             this.label27.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label27.ForeColor = System.Drawing.Color.Gold;
-            this.label27.Location = new System.Drawing.Point(65, 232);
+            this.label27.Location = new System.Drawing.Point(65, 20);
             this.label27.Margin = new System.Windows.Forms.Padding(65, 20, 65, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(148, 54);
+            this.label27.Size = new System.Drawing.Size(328, 270);
             this.label27.TabIndex = 22;
-            this.label27.Text = "FIRST";
+            this.label27.Text = "Competitive Games \r\nComing Soon";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label28.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label28.Location = new System.Drawing.Point(60, 291);
-            this.label28.Margin = new System.Windows.Forms.Padding(60, 5, 0, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(174, 47);
-            this.label28.TabIndex = 23;
-            this.label28.Text = "user #1";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel2.SetFlowBreak(this.label29, true);
-            this.label29.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label29.ForeColor = System.Drawing.Color.Silver;
-            this.label29.Location = new System.Drawing.Point(60, 358);
-            this.label29.Margin = new System.Windows.Forms.Padding(60, 20, 65, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(173, 54);
-            this.label29.TabIndex = 24;
-            this.label29.Text = "SECOND";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label30.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label30.Location = new System.Drawing.Point(60, 417);
-            this.label30.Margin = new System.Windows.Forms.Padding(60, 5, 0, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(174, 47);
-            this.label30.TabIndex = 25;
-            this.label30.Text = "user #2";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel2.SetFlowBreak(this.label31, true);
-            this.label31.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label31.ForeColor = System.Drawing.Color.Peru;
-            this.label31.Location = new System.Drawing.Point(65, 484);
-            this.label31.Margin = new System.Windows.Forms.Padding(65, 20, 65, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(148, 54);
-            this.label31.TabIndex = 26;
-            this.label31.Text = "THIRD";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label32.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label32.Location = new System.Drawing.Point(60, 543);
-            this.label32.Margin = new System.Windows.Forms.Padding(60, 5, 0, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(174, 47);
-            this.label32.TabIndex = 27;
-            this.label32.Text = "user #3";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // HomePage
             // 
@@ -798,7 +611,6 @@ namespace CacheCardsPrototype
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

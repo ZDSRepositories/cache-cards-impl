@@ -42,20 +42,31 @@ namespace CacheCardsPrototype
 
         private void FlashcardSets_Load(object sender, EventArgs e)
         {
-            // get the user's topics
-            string[] usersTopics = currentUser.flashcards.Keys.ToArray();
-            // get the user's setNames
-            string[] usersSetNames = currentUser.flashcards[usersTopics[0]].Keys.ToArray();
-            //MessageBox.Show(usersTopics[0]);
-            Set newSet = new Set();
-
-            label3.Text = usersSetNames[0];
-            label4.Text = usersSetNames[1];
-            comboBox1.Items.Clear();
-            if(usersTopics != null ) 
+            if ((currentUser.flashcards.Count() > 0))
             {
+                // get the user's topics
+                string[] usersTopics = currentUser.flashcards.Keys.ToArray();
+                // get the user's setNames
+                string[] usersSetNames = currentUser.flashcards[usersTopics[0]].Keys.ToArray();
+
+                label3.Text = usersSetNames[0];
+                label4.Text = usersSetNames[1];
+                comboBox1.Items.Clear();
                 comboBox1.Items.AddRange(usersTopics);
+                //Set newSet = new Set();
             }
+            else
+            {
+                usersSetsPanel.Controls.Clear();
+            }
+            
+            
+           
+            
+            //if(usersTopics != null ) 
+            //{
+            //    
+            //}
             //foreach (string topic in usersTopics)
             //{
             //    Label 
@@ -105,6 +116,10 @@ namespace CacheCardsPrototype
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //// get the user's topic names
+            //string[] usersTopics = this.currentUser.flashcards.Keys.ToArray();
+            //// get the user's setNames
+            //string[] usersSetNames = this.currentUser.flashcards[usersTopics[0]].Keys.ToArray();
             this.Hide();
             var form2 = new StudyFlashCards(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
@@ -113,6 +128,10 @@ namespace CacheCardsPrototype
 
         private void button5_Click(object sender, EventArgs e)
         {
+            //// get the user's topic names
+            //string[] usersTopics = this.currentUser.flashcards.Keys.ToArray();
+            //// get the user's setNames
+            //string[] usersSetNames = this.currentUser.flashcards[usersTopics[0]].Keys.ToArray();
             this.Hide();
             var form2 = new StudyFlashCards(this.mainDB, this.currentUser);
             form2.Closed += (s, args) => this.Close();
